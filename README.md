@@ -1,38 +1,26 @@
-# Hi, I'm Manish Raghuwanshi 👋
+## Hi, I'm Manish Raghuwanshi 👋
 
-I'm a **Frontend Developer** focused on building clean, responsive, and user-friendly web experiences with **React.js, JavaScript, TypeScript, and Next.js**.
+### Frontend Developer | React.js | TypeScript | Next.js
 
-I enjoy turning ideas into practical interfaces, learning modern web technologies, and continuously improving my development skills through hands-on projects.
+Frontend Developer with professional experience building web applications
+using React.js. Currently working in modern development using Next.js and expanding
+my skills in full-stack technologies.
 
-## About Me
+🎓 B.Tech in Computer Science & Engineering — VIT Bhopal University
 
-- 💻 Frontend Developer with professional experience working on React.js projects
-- ⚛️ Interested in React, Next.js, and modern frontend development
-- 📱 Familiar with React Native for mobile application development
-- 🛠️ Exploring backend development with Node.js, Express, and databases
-- 🎓 B.Tech in Computer Science and Engineering from VIT Bhopal University
-- 🚀 Focused on learning, building, and becoming a stronger full-stack-minded frontend developer
+🌐 [Visit My Portfolio](YOUR_PORTFOLIO_WEBSITE_URL)  |   🌐 [Luxury Watches](YOUR_PORTFOLIO_WEBSITE_URL)   
 
-## Tech I Work With
+### Tech Stack
 
-- **Frontend:** React.js, JavaScript, TypeScript, Next.js, HTML, CSS, Tailwind CSS
-- **Mobile:** React Native
-- **Backend:** Node.js, Express.js
-- **Databases:** MySQL, MongoDB, PostgreSQL
-- **Other Experience:** PHP, WordPress, SEO, Git, and GitHub
+- 💻 **Frontend:** React.js, JavaScript, TypeScript, Next.js, HTML, CSS, Tailwind CSS
+- 📱 **Mobile:** React Native
+- ⚙️ **Backend:** Node.js, Next.js
+- 🗄️ **Databases:** MySQL, MongoDB, PostgreSQL
+- 🛠️ **Other Experience:** PHP, WordPress, SEO, Git, and GitHub
+- 🚀 **Expanding:** Full Stack Tech (express.js and node)
 
-## Explore My Work
+### 📫 Connect With Me
 
-My portfolio website contains more information about my background, skills, professional experience, education, and projects.
-
-👉 **[Visit My Portfolio](YOUR_PORTFOLIO_WEBSITE_URL)**
-
-## Connect With Me
-
-- **GitHub:** [manishraghuwanshi](https://github.com/manishraghuwanshi)
-- **LinkedIn:** [Manish Raghuwanshi](https://www.linkedin.com/in/manishraghuwanshi/)
-- **Email:** [manishraghuwanshiofficial@gmail.com](mailto:manishraghuwanshiofficial@gmail.com)
-
----
-
-Thanks for visiting my profile! 🙂
+[GitHub](https://github.com/manishraghuwanshi) •
+[LinkedIn](https://www.linkedin.com/in/manishraghuwanshi/) •
+[Email](mailto:manishraghuwanshiofficial@gmail.com)
