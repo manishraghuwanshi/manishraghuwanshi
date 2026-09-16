@@ -1,35 +1,38 @@
-# React + TypeScript + Vite
+# Hi, I'm Manish Raghuwanshi 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+I'm a **Frontend Developer** focused on building clean, responsive, and user-friendly web experiences with **React.js, JavaScript, TypeScript, and Next.js**.
 
-Currently, two official plugins are available:
+I enjoy turning ideas into practical interfaces, learning modern web technologies, and continuously improving my development skills through hands-on projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About Me
 
-## React Compiler
+- 💻 Frontend Developer with professional experience working on React.js projects
+- ⚛️ Interested in React, Next.js, and modern frontend development
+- 📱 Familiar with React Native for mobile application development
+- 🛠️ Exploring backend development with Node.js, Express, and databases
+- 🎓 B.Tech in Computer Science and Engineering from VIT Bhopal University
+- 🚀 Focused on learning, building, and becoming a stronger full-stack-minded frontend developer
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Tech I Work With
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- **Frontend:** React.js, JavaScript, TypeScript, Next.js, HTML, CSS, Tailwind CSS
+- **Mobile:** React Native
+- **Backend:** Node.js, Express.js
+- **Databases:** MySQL, MongoDB, PostgreSQL
+- **Other Experience:** PHP, WordPress, SEO, Git, and GitHub
 
-## Expanding the Oxlint configuration
+## Explore My Work
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+My portfolio website contains more information about my background, skills, professional experience, education, and projects.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+👉 **[Visit My Portfolio](YOUR_PORTFOLIO_WEBSITE_URL)**
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Connect With Me
+
+- **GitHub:** [manishraghuwanshi](https://github.com/manishraghuwanshi)
+- **LinkedIn:** [Manish Raghuwanshi](https://www.linkedin.com/in/manishraghuwanshi/)
+- **Email:** [manishraghuwanshiofficial@gmail.com](mailto:manishraghuwanshiofficial@gmail.com)
+
+---
+
+Thanks for visiting my profile! 🙂
