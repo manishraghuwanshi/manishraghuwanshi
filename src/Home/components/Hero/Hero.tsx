@@ -1,9 +1,8 @@
-import { FiArrowDown, FiArrowUpRight, FiDownload } from "react-icons/fi";
-
+import { FiArrowDown } from "react-icons/fi";
 import {
   heroImage,
   heroMobileImage,
-  RESUME_PATH,
+  
 } from "../../../data/home.data";
 import { FaGithub } from "react-icons/fa6";
 

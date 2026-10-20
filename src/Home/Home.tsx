@@ -4,7 +4,7 @@ import Capabilities from "./components/Capabilities/Capabilities";
 import Websites from "./components/Websites/Websites";
 import Skills from "./components/Skills/Skills";
 import ExperiencePreview from "./components/ExperiencePreview/ExperiencePreview";
-import ResumePreview from "./components/ResumePreview/ResumePreview";
+// import ResumePreview from "./components/ResumePreview/ResumePreview";
 import EducationPreview from "./components/EducationPreview/EducationPreview";
 import BuildProcess from "./components/BuildProcess/BuildProcess";
 import ContactCTA from "./components/ContactCTA/ContactCTA";

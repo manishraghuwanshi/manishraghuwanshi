@@ -4,7 +4,6 @@ import heroMobileImage from "../assets/home/hero_mobile.png";
 import website01 from "../assets/home/website-01.png";
 import website02 from "../assets/home/website-02.png";
 import website03 from "../assets/home/website-03.png";
-import website04 from "../assets/home/website-04.png";
 
 import type {
   BuildStep,
