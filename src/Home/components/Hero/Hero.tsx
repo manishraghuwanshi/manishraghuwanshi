@@ -1,6 +1,11 @@
 import { FiArrowDown, FiArrowUpRight, FiDownload } from "react-icons/fi";
 
-import { heroImage, heroMobileImage, RESUME_PATH } from "../../../data/home.data";
+import {
+  heroImage,
+  heroMobileImage,
+  RESUME_PATH,
+} from "../../../data/home.data";
+import { FaGithub } from "react-icons/fa6";
 
 function Hero() {
   const scrollToWebsites = () => {
@@ -55,22 +60,13 @@ function Hero() {
             </button>
 
             <a
-              href={RESUME_PATH}
-              download
-              className="inline-flex items-center gap-2 rounded-lg border border-white/20 bg-black/40 px-5 py-3 text-sm font-bold text-white transition hover:border-[#1e3e62]"
-            >
-              Resume
-              <FiDownload />
-            </a>
-
-            <a
-              href={RESUME_PATH}
+              href="https://github.com/manishraghuwanshi"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-lg border border-white/20 bg-black/40 px-5 py-3 text-sm font-bold text-white transition hover:border-[#1e3e62]"
             >
-              View Resume
-              <FiArrowUpRight />
+              <FaGithub />
+              GitHub
             </a>
           </div>
 
@@ -79,6 +75,7 @@ function Hero() {
             <span>React</span>
             <span>Typescript</span>
             <span>React Native</span>
+            <span>Express.js</span>
           </div>
         </div>
       </div>

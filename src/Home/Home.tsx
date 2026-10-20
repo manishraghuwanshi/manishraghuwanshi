@@ -22,7 +22,7 @@ function Home() {
       <Websites />
       <Skills />
       <ExperiencePreview />
-      <ResumePreview />
+      {/* <ResumePreview /> */}
       <EducationPreview />
       <BuildProcess />
       <AboutMe />

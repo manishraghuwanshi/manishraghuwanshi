@@ -28,6 +28,7 @@ export const technologyFlow = [
   "Next.js",
   "Tailwind CSS",
   "Node.js",
+  "Express.js",
   "ORM/Prisma",
   "MySQL",
   "PostgreSQL",
@@ -87,44 +88,35 @@ export const capabilities: Capability[] = [
 export const homeWebsites: HomeWebsite[] = [
   {
     id: "website-01",
-    name: "Website One",
-    category: "Business Website",
+    name: "eCommerce Watch App",
+    category: "Customer Website",
     description:
-      "A responsive business website focused on clear content, visual hierarchy and usability.",
+    "A modern e-commerce platform dedicated to watches, combining product discovery, detailed product experiences, and a polished shopping interface.",
     image: website01,
+    url: "https://example.com/",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Drizzle ORM", "Neon PostgreSQL", "React.js" ],
+  },
+  {
+    id: "website-02",
+    name: "Admin Dashboard",
+    category: "Product Management",
+    description:
+      "A modern React and TypeScript admin dashboard for managing products, brands, categories, inventory, and other ecommerce operations through a responsive and scalable interface.",
+    image: website02,
     url: "https://example.com/",
     stack: ["React", "TypeScript", "Tailwind CSS"],
   },
   {
-    id: "website-02",
-    name: "Website Two",
-    category: "Product Website",
-    description:
-      "A modern product experience built around reusable components and responsive layouts.",
-    image: website02,
-    url: "https://example.com/",
-    stack: ["React", "JavaScript", "Tailwind CSS"],
-  },
-  {
     id: "website-03",
-    name: "Website Three",
-    category: "Company Website",
+    name: "Express Backend",
+    category: "eCommerce Backend",
     description:
-      "A clean company website designed around structured content and straightforward navigation.",
+      "A secure REST API backend built with Express.js and TypeScript for powering an ecommerce administration platform with authentication, role-based access control, product management, database operations, and audit logging.",
     image: website03,
     url: "https://example.com/",
-    stack: ["Next.js", "TypeScript"],
+    stack: ["Express.js", "Node.js", "Drizzle ORM", "Neon PostgreSQL"],
   },
-  {
-    id: "website-04",
-    name: "Website Four",
-    category: "Web Experience",
-    description:
-      "An interactive web experience combining responsive UI and practical user interactions.",
-    image: website04,
-    url: "https://example.com/",
-    stack: ["React", "TypeScript", "API"],
-  },
+ 
 ];
 
 export const strongSkills: SkillGroup = {
