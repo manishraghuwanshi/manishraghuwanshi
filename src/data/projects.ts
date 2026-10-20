@@ -1,22 +1,21 @@
 import type { Project } from "./../types/project";
 
-import img1 from "../assets/projectImgs/img1.png";
-import img2 from "../assets/projectImgs/img2.png";
-import img3 from "../assets/projectImgs/img3.png";
-import img4 from "../assets/projectImgs/img4.png";
-import img5 from "../assets/projectImgs/img5.png";
-import img6 from "../assets/projectImgs/img6.png";
-import img7 from "../assets/projectImgs/img7.png";
-import img8 from "../assets/projectImgs/img8.png";
 
+import devzen from "../assets/projectImgs/devzen.png";
+import expressbackend from "../assets/projectImgs/expressbackend.png";
+
+import img1 from "../assets/projectImgs/chronospeed.png";
+import img2 from "../assets/projectImgs/chronospeedscrst1.png";
+import img3 from "../assets/projectImgs/chronospeedscrst2.png";
+import Professional_Technologies_Portfolio_Banner from "../assets/projectImgs/Professional_Technologies_Portfolio_Banner.png";
 
 /* =========================================================
    Featured Project
    ========================================================= */
 
 export const featuredProject: Project = {
-  id: "spacetime",
-  title: "SpaceTime",
+  id: "chronospeed",
+  title: "ChronoSpeed",
   category: "featured",
   status: "In Development",
 
@@ -24,7 +23,7 @@ export const featuredProject: Project = {
     "A modern e-commerce platform dedicated to watches, combining product discovery, detailed product experiences, and a polished shopping interface.",
 
   longDescription:
-    "SpaceTime is a full-featured watch e-commerce project currently under development. The project focuses on creating a premium shopping experience with a modern interface, responsive layouts, authentication, product browsing, and a scalable application structure.",
+    "ChronoSpeed is a full-featured watch e-commerce project currently under development. The project focuses on creating a premium shopping experience with a modern interface, responsive layouts, authentication, product browsing, and a scalable application structure.",
 
   role: "Full-Stack Developer",
 
@@ -70,11 +69,11 @@ export const featuredProject: Project = {
   links: [
     {
       label: "Live Preview",
-      href: "#",
+      href: "https://chronospeed.vercel.app/",
     },
     {
       label: "GitHub",
-      href: "#",
+      href: "https://github.com/manishraghuwanshi/chronospeed",
     },
   ],
 };
@@ -85,14 +84,13 @@ export const featuredProject: Project = {
 
 export const currentProjects: Project[] = [
   {
-    id: "current-project-one",
-    title: "Modern Web Application",
+    id: "devzen",
+    title: "Devzen Admin Dashboard",
     category: "current",
-    status: "In Development",
+    status: "Completed",
 
     description:
-      "A modern web application focused on responsive UI, reusable components, and a scalable frontend architecture.",
-
+      "A modern React and TypeScript admin dashboard for managing products, brands, categories, inventory, and other ecommerce operations through a responsive and scalable interface.",
     role: "Developer",
 
     year: "2026",
@@ -100,8 +98,16 @@ export const currentProjects: Project[] = [
     technologies: [
       "React",
       "TypeScript",
-      "Tailwind CSS",
       "Vite",
+      "Tailwind CSS",
+      "React Router",
+      "TanStack Query",
+      "Axios",
+      "React Hook Form",
+      "Zod",
+      "Lucide React",
+      "ESLint",
+      "Prettier",
     ],
 
     features: [
@@ -111,58 +117,60 @@ export const currentProjects: Project[] = [
       "Modern frontend architecture",
     ],
 
-    image: img2,
+    image: devzen,
 
     links: [
       {
         label: "Live Preview",
-        href: "#",
+        href: "https://devzen-ten.vercel.app/",
       },
       {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/manishraghuwanshi/devzen",
       },
     ],
   },
 
   {
     id: "current-project-two",
-    title: "Full-Stack Application",
+    title: "Ecommerce Admin Backend",
     category: "current",
-    status: "In Development",
-
+    status: "Completed",
     description:
-      "A full-stack application exploring modern frontend development together with backend APIs and database integration.",
-
-    role: "Full-Stack Developer",
-
+      "A secure REST API backend built with Express.js and TypeScript for powering an ecommerce administration platform with authentication, role-based access control, product management, database operations, and audit logging.",
+    role: "Backend Developer",
     year: "2026",
-
     technologies: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
       "Node.js",
-      "MongoDB",
+      "Express.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Neon",
+      "Drizzle ORM",
+      "Zod",
+      "Argon2",
+      "JOSE",
+      "REST API",
     ],
-
     features: [
-      "Responsive interface",
-      "REST API integration",
-      "Database integration",
-      "Authentication",
+      "Admin authentication",
+      "Role-based access control",
+      "Product management API",
+      "PostgreSQL database integration",
+      "Secure HTTP-only sessions",
+      "Login rate limiting",
+      "CSRF & CORS protection",
+      "Audit logging",
     ],
-
-    image: img3,
-
+    image: expressbackend,
     links: [
       {
-        label: "Live Preview",
-        href: "#",
+        label: "Live API",
+        href: "https://watch-admin-backend.onrender.com/",
       },
       {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/manishraghuwanshi/admin-backend",
       },
     ],
   },
@@ -180,85 +188,87 @@ export const professionalProjects: Project[] = [
     status: "Professional Work",
 
     description:
-      "A production website developed and maintained during my professional experience as a Junior Web Developer.",
-
+      "A React-based internal organization management application developed to streamline day-to-day business operations across employees, managers, HR, and administrators.",
     role: "Junior Web Developer",
     company: "Professional Work",
 
     technologies: [
-      "WordPress",
-      "PHP",
+      "React.js",
       "JavaScript",
-      "HTML",
-      "CSS",
+      "REST APIs",
+      "React Router",
+      "Context API",
     ],
 
-    image: img4,
+    image: Professional_Technologies_Portfolio_Banner,
 
     links: [
       {
-        label: "Visit Website",
+        label: "Internal Project",
         href: "#",
       },
     ],
   },
 
   {
-    id: "kazemskitchen",
-    title: "Kazems Kitchen",
+    id: "taskmax",
+    title: "TaskMax",
     category: "professional",
     status: "Professional Work",
 
     description:
-      "A production website project involving responsive layouts, content presentation, and frontend implementation.",
+      "A React Native application developed as the mobile counterpart to the internal organization management system, supporting organizational workflows for employees, managers, HR, and administrators.",
 
     role: "Junior Web Developer",
     company: "Professional Work",
 
     technologies: [
-      "WordPress",
-      "PHP",
+      "React Native",
       "JavaScript",
-      "HTML",
-      "CSS",
+      "Android Studio",
+      "Xcode",
+      "REST APIs",
+      "styled-components",
     ],
 
-    image: img5,
+    image: Professional_Technologies_Portfolio_Banner,
 
     links: [
       {
-        label: "Visit Website",
+        label: "Internal Project",
         href: "#",
       },
     ],
   },
 
   {
-    id: "green-injury-law-firm",
-    title: "Green Injury Law Firm",
+    id: "miamiorthodontistgroup",
+    title: "Miami Orthodontist Group",
     category: "professional",
     status: "Professional Work",
 
     description:
-      "A professional business website focused on responsive presentation, service information, and user-friendly navigation.",
+      "Managed PHP-based blog content and supported off-page SEO, review submissions, social media posting, and image, PDF, video, and other content submissions, also used SEO PowerSuite and Google SEO tools.",
 
     role: "Junior Web Developer",
     company: "Professional Work",
 
     technologies: [
-      "WordPress",
+      "Blog Management",
       "PHP",
       "JavaScript",
-      "CSS",
-      "SEO",
+      "Off-Page SEO",
+      "SEO PowerSuite",
+      "Google SEO Tools",
+      "Content Submission",
     ],
 
-    image: img6,
+    image: Professional_Technologies_Portfolio_Banner,
 
     links: [
       {
         label: "Visit Website",
-        href: "#",
+        href: "https://www.miamiorthodontistgroup.com/",
       },
     ],
   },
@@ -275,15 +285,9 @@ export const professionalProjects: Project[] = [
     role: "Junior Web Developer",
     company: "Professional Work",
 
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "PHP",
-      "WordPress",
-    ],
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
 
-    image: img7,
+    image: Professional_Technologies_Portfolio_Banner,
 
     links: [
       {
@@ -311,15 +315,9 @@ export const contributionProjects: Project[] = [
     contribution:
       "Worked on existing projects when the primary developer was unavailable or additional development support was required.",
 
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "PHP",
-      "WordPress",
-    ],
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
 
-    image: img8,
+    image: Professional_Technologies_Portfolio_Banner,
   },
 
   {
@@ -334,14 +332,9 @@ export const contributionProjects: Project[] = [
     contribution:
       "Investigated frontend issues, implemented fixes, and helped keep production websites operational.",
 
-    technologies: [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "PHP",
-    ],
+    technologies: ["JavaScript", "HTML", "CSS", "PHP"],
 
-    image: img2,
+    image: Professional_Technologies_Portfolio_Banner,
   },
 
   {
@@ -356,15 +349,9 @@ export const contributionProjects: Project[] = [
     contribution:
       "Helped with technical website changes and content-related updates when SEO development work required additional support.",
 
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "WordPress",
-      "SEO",
-    ],
+    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "SEO"],
 
-    image: img3,
+    image: Professional_Technologies_Portfolio_Banner,
   },
 
   {
@@ -379,14 +366,8 @@ export const contributionProjects: Project[] = [
     contribution:
       "Worked across different projects and handled smaller tasks outside of a primary project when required by the team.",
 
-    technologies: [
-      "JavaScript",
-      "PHP",
-      "WordPress",
-      "HTML",
-      "CSS",
-    ],
+    technologies: ["JavaScript", "PHP", "WordPress", "HTML", "CSS"],
 
-    image: img1,
+    image: Professional_Technologies_Portfolio_Banner,
   },
 ];

@@ -7,7 +7,7 @@ import ProjectFilter, {
   type ProjectFilterValue,
 } from "../components/projects/ProjectFilter";
 
-import product_page from "../assets/projectImgs/product_page.png";
+import product_page from "../assets/projectImgs/projects.png";
 
 import {
   contributionProjects,
